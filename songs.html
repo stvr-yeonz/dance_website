@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Vibe Dance - Songs</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .songs-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .song-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: background 0.3s;
+        }
+
+        .song-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .song-info h3 {
+            margin: 0 0 5px;
+            color: #ff4500;
+        }
+
+        .song-info p {
+            margin: 0;
+            font-size: 14px;
+            color: #ddd;
+        }
+
+        .play-btn {
+            background: #ff4500;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .play-btn:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Urban Vibe Dance</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="dancers.html">Dancers</a></li>
+            <li><a href="songs.html">Songs</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero" style="height: 300px;">
+        <div class="hero-content">
+            <h1>Our Playlist</h1>
+            <p>The beats that move us.</p>
+        </div>
+    </div>
+
+    <div class="songs-container">
+        <div class="song-item">
+            <div class="song-info">
+                <h3>Urban Groove</h3>
+                <p>Artist: DJ Vibe</p>
+            </div>
+            <button class="play-btn">Play</button>
+        </div>
+        <div class="song-item">
+            <div class="song-info">
+                <h3>Street Rhythm</h3>
+                <p>Artist: The Breakers</p>
+            </div>
+            <button class="play-btn">Play</button>
+        </div>
+        <div class="song-item">
+            <div class="song-info">
+                <h3>Night City</h3>
+                <p>Artist: Neon Lights</p>
+            </div>
+            <button class="play-btn">Play</button>
+        </div>
+        <div class="song-item">
+            <div class="song-info">
+                <h3>Flow State</h3>
+                <p>Artist: Smooth Moves</p>
+            </div>
+            <button class="play-btn">Play</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
