@@ -15,6 +15,58 @@
             max-width: 1200px;
             margin: 0 auto;
         }
+        /* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Grid layout for dancers */
+.dancers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Individual dancer card */
+.dancer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+}
+
+/* Hover effect */
+.dancer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Image styling */
+.dancer-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Name styling */
+.dancer-card h3 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+/* Description styling */
+.dancer-card p {
+    color: #666;
+    font-size: 14px;
+}
+
         .dancer-card {
             background: rgba(255, 255, 255, 0.1);
             border-radius: 15px;
